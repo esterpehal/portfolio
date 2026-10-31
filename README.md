@@ -18,6 +18,16 @@ An aspiring concept artist and illustrator based in Prague, specializing in styl
 - **ŠKOLA MICHAEL** — Střední škola reklamní a umělecké tvorby (Diploma in Graphic & Media Design)
 - **Vysoká škola kreativní komunikace (VŠKK)** — BcA. Animace a vizuální efekty (Current student)
 
+### Experience
+- **Internships**:
+  - **GEM Systems a.s.** — Graphic Designer (2024)
+  - **One Pixel Brush** — Concept Art (Ongoing since 2025)
+- **Freelance Work**:
+  - **Alena Štraubová** — Social media book promo illustrations
+  - **Embassy of Malaysia Prague** — Promo illustrations
+  - **Cold War Museum Prague** — Visual identity & graphic design
+  - **FAMU Student Pitch** — Concept art for *Paralegal* (TV show)
+
 ### Contact & Links
 - ✉️ **Email**: [ester@pehal.net](mailto:ester@pehal.net)
 - 📷 **Instagram**: [@Sisulka999](https://instagram.com/Sisulka999)
