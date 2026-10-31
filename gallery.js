@@ -275,6 +275,15 @@ const videoCatalog = {
     ratioClass: "ratio-1-1",
     meta: ["Process Loop", "36s"],
     description: ""
+  },
+  opposites: {
+    title: "Opposites Attract",
+    runtime: "17s",
+    srcMp4: "opposites_attract.mp4",
+    srcMov: "Opposites Attract.MOV",
+    ratioClass: "ratio-4-3",
+    meta: ["Animation Loop", "17s"],
+    description: ""
   }
 };
 
@@ -370,6 +379,7 @@ function setupVideoPlayer() {
 
     // Update source
     videoElem.pause();
+    videoElem.loop = (type === "drawing" || type === "opposites");
     videoElem.innerHTML = `
       <source src="${data.srcMp4}" type="video/mp4">
       <source src="${data.srcMov}" type="video/quicktime">

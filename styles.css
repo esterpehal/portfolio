@@ -402,6 +402,12 @@ a {
   margin: 0 auto;
 }
 
+.video-player-wrapper.ratio-4-3 {
+  aspect-ratio: 4 / 3;
+  max-width: 880px;
+  margin: 0 auto;
+}
+
 .video-element {
   width: 100%;
   height: 100%;
