@@ -65,17 +65,17 @@ const artworksData = [
     aspectClass: "portrait-aspect"
   },
   {
-    id: "painting-susie",
-    title: "Susie Myerson",
-    czechTitle: "Susie Myerson",
+    id: "painting-blue-panel-house",
+    title: "Blue Panel House",
+    czechTitle: "Modrý panelák",
     category: "paintings",
     categoryLabel: "Paintings",
     year: "2024",
-    medium: "Digital Portrait Painting",
-    dimensions: "1541 × 1932 px",
-    image: "Susie Myerson.jpg",
-    thumbnail: "thumbnails/Susie Myerson.jpg",
-    description: "Expressive painted portrait tribute to talent manager Susie Myerson (The Marvelous Mrs. Maisel) mid-conversation on the telephone.",
+    medium: "Digital Environment Painting",
+    dimensions: "1540 × 2064 px",
+    image: "PANEL HOUSE.JPG",
+    thumbnail: "thumbnails/PANEL HOUSE.jpg",
+    description: "Atmospheric environment painting of a modernist panel building at dusk with illuminated windows and quiet balconies.",
     aspectClass: "portrait-aspect"
   },
   {
@@ -167,18 +167,18 @@ const artworksData = [
     aspectClass: "square-aspect"
   },
   {
-    id: "char-kapri-panna",
-    title: "Kapří panna (Projekt PARALEGAL)",
-    czechTitle: "Kapří panna - Projekt PARALEGAL",
+    id: "char-local-x-expat",
+    title: "LocalXExpat",
+    czechTitle: "LocalXExpat",
     category: "character-art",
     categoryLabel: "Character Art",
     year: "2024",
-    medium: "Visual Development Concept",
-    dimensions: "1205 × 1759 px",
-    image: "kapri_panna_projekt_paralegal.jpg",
-    thumbnail: "thumbnails/kapri_panna_projekt_paralegal.jpg",
-    description: "Whimsical freshwater carp mermaid concept holding a brown glass bottle, created for the visual development of Projekt PARALEGAL.",
-    aspectClass: "portrait-aspect"
+    medium: "Digital Character Art",
+    dimensions: "2127 × 1811 px",
+    image: "EXPATxLOCAL.JPG",
+    thumbnail: "thumbnails/EXPATxLOCAL.jpg",
+    description: "Dynamic stylized character art depicting a local and an expat exploring the city together.",
+    aspectClass: "square-aspect"
   },
 
   // ==========================================
