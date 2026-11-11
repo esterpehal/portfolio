@@ -92,6 +92,20 @@ const artworksData = [
     description: "Moody character portrait rendered in opulent violet tones, featuring a brooding figure in military headwear and a gold-buckled cape.",
     aspectClass: "portrait-aspect"
   },
+  {
+    id: "painting-deer-mother",
+    title: "Deer Mother",
+    czechTitle: "Jelení máma",
+    category: "paintings",
+    categoryLabel: "Paintings",
+    year: "2024",
+    medium: "Digital Landscape Painting",
+    dimensions: "1153 × 2064 px",
+    image: "DEER MOTHER.jpg",
+    thumbnail: "thumbnails/DEER MOTHER.jpg",
+    description: "Atmospheric nocturnal forest study of a mother deer and a drinking fawn reflected in twilight waters.",
+    aspectClass: "portrait-aspect"
+  },
 
   // ==========================================
   // CHARACTER ART
@@ -437,7 +451,7 @@ function setupFilterButtons() {
 
       if (filter === "all") {
         sections.forEach(sec => sec.classList.remove("hidden-by-filter"));
-        if (statusText) statusText.textContent = "Showing all 17 works";
+        if (statusText) statusText.textContent = `Showing all ${artworksData.length} works`;
         currentArtworkList = [...artworksData];
       } else {
         sections.forEach(sec => {

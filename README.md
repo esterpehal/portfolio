@@ -10,7 +10,7 @@ An aspiring concept artist and illustrator based in Prague, specializing in styl
 
 ### Portfolio Overview
 - **2D Animation**: Featured semestral project (`AVE 2`), process loops (`Endless Drawing`), and animation loops (`Opposites Attract`)
-- **Paintings**: Atmospheric digital environment paintings and studies (*Blue Panel House*, *Angel on a Wire*, *Nostalgic View*, *Somewhere Far*, *Eggs*, *Unknown Horseman*)
+- **Paintings**: Atmospheric digital environment paintings and studies (*Deer Mother*, *Blue Panel House*, *Angel on a Wire*, *Nostalgic View*, *Somewhere Far*, *Eggs*, *Unknown Horseman*)
 - **Character Art**: Stylized character illustrations and concept designs (*LocalXExpat*, *Angelic Agents*, *Nurses at Karlovo Náměstí*, *Little Mobster*, *Boar General (USSR)*, *Princesses / Royal Guard*)
 - **Sketches & Studies**: Model sheets, emotional expression studies, and ink caricatures
 
