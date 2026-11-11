@@ -9,6 +9,20 @@ const artworksData = [
   // PAINTINGS
   // ==========================================
   {
+    id: "painting-deer-mother",
+    title: "Deer Mother",
+    czechTitle: "Jelení máma",
+    category: "paintings",
+    categoryLabel: "Paintings",
+    year: "2024",
+    medium: "Digital Landscape Painting",
+    dimensions: "1153 × 2064 px",
+    image: "DEER MOTHER.jpg",
+    thumbnail: "thumbnails/DEER MOTHER.jpg",
+    description: "Atmospheric nocturnal forest study of a mother deer and a drinking fawn reflected in twilight waters.",
+    aspectClass: "portrait-aspect"
+  },
+  {
     id: "painting-angel",
     title: "Angel on a Wire",
     czechTitle: "Anděl na drátě",
@@ -90,20 +104,6 @@ const artworksData = [
     image: "unknown horseman.jpg",
     thumbnail: "thumbnails/unknown horseman.jpg",
     description: "Moody character portrait rendered in opulent violet tones, featuring a brooding figure in military headwear and a gold-buckled cape.",
-    aspectClass: "portrait-aspect"
-  },
-  {
-    id: "painting-deer-mother",
-    title: "Deer Mother",
-    czechTitle: "Jelení máma",
-    category: "paintings",
-    categoryLabel: "Paintings",
-    year: "2024",
-    medium: "Digital Landscape Painting",
-    dimensions: "1153 × 2064 px",
-    image: "DEER MOTHER.jpg",
-    thumbnail: "thumbnails/DEER MOTHER.jpg",
-    description: "Atmospheric nocturnal forest study of a mother deer and a drinking fawn reflected in twilight waters.",
     aspectClass: "portrait-aspect"
   },
 
@@ -349,7 +349,7 @@ function createArtCard(art) {
   card.innerHTML = `
     <div class="art-card-media ${art.aspectClass}">
       <img
-        src="${art.thumbnail}"
+        src="${encodeURI(art.thumbnail)}"
         alt="${art.title} by Ester Pehal"
         class="art-card-img"
         loading="lazy"
@@ -569,7 +569,7 @@ function updateLightboxContent() {
   isLightboxZoomed = false;
   image.classList.remove("zoomed");
 
-  image.src = art.image;
+  image.src = encodeURI(art.image);
   image.alt = `${art.title} - Ester Pehal`;
 
   title.innerHTML = `
@@ -584,7 +584,7 @@ function updateLightboxContent() {
   counter.textContent = `${currentLightboxIndex + 1} / ${currentArtworkList.length}`;
 
   if (btnOriginal) {
-    btnOriginal.href = art.image;
+    btnOriginal.href = encodeURI(art.image);
     btnOriginal.target = "_blank";
   }
 
@@ -592,8 +592,8 @@ function updateLightboxContent() {
   if (currentArtworkList.length > 1) {
     const nextIdx = (currentLightboxIndex + 1) % currentArtworkList.length;
     const prevIdx = (currentLightboxIndex - 1 + currentArtworkList.length) % currentArtworkList.length;
-    new Image().src = currentArtworkList[nextIdx].image;
-    new Image().src = currentArtworkList[prevIdx].image;
+    new Image().src = encodeURI(currentArtworkList[nextIdx].image);
+    new Image().src = encodeURI(currentArtworkList[prevIdx].image);
   }
 }
 
